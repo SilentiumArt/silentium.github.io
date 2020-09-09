@@ -821,7 +821,14 @@
         $('.gallery-list').slick({
             slidesToShow: 4,
             arrow: true,
-            swipeToSlide: true
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                }
+            ]
         });
         $('.typeOfGallery-wrap').slick({
             slidesToShow: 1,
