@@ -588,11 +588,20 @@ a {
           align-items: center;
 }
 
+@media (max-width: 576px) {
+  .typeOfGallery-wrap .typeOfGallery-items {
+    position: relative;
+    left: -6px;
+  }
+}
+
 .typeOfGallery-wrap .typeOfGallery-items .example {
   width: 100%;
   padding: 20px;
   background-color: #373737;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
+  width: 263px;
+  height: 289px;
 }
 
 .typeOfGallery-wrap .typeOfGallery-items .example .main-img {
