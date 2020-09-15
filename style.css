@@ -121,6 +121,13 @@ a {
   transition: 0.3s;
 }
 
+@media (max-width: 576px) {
+  .nav li:nth-child(2) img.arrow-down {
+    width: 9px;
+    right: -10px;
+  }
+}
+
 .nav a {
   color: #000000;
   text-transform: uppercase;
