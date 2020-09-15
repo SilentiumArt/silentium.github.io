@@ -701,6 +701,9 @@ a {
   letter-spacing: 0.1px;
   font-weight: bold;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+  appearance: none;
 }
 
 @media (max-width: 576px) {
