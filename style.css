@@ -911,7 +911,7 @@ footer .social li:last-child {
   display: grid;
   -ms-grid-columns: 1fr 2fr;
       grid-template-columns: 1fr 2fr;
-  background: #373737 url("./img/soc-item_bg.svg") center no-repeat;
+  background: #373737 url("img/soc-item_bg.svg") center no-repeat;
   background-size: contain;
   padding: 9px;
   margin-bottom: 9px;
