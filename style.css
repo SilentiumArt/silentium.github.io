@@ -524,7 +524,7 @@ a {
   width: 255px;
 }
 
-.gallery a {
+.gallery a, .gallery .backToGallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
