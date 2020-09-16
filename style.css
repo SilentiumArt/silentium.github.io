@@ -1058,6 +1058,13 @@ footer .social li:last-child {
   z-index: 0;
 }
 
+@media (max-width: 576px) {
+  .special-wrap {
+    top: 36px;
+    left: -9px;
+  }
+}
+
 .rotate {
   -webkit-transform: rotateX(180deg);
           transform: rotateX(180deg);
