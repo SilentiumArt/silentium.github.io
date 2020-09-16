@@ -1061,7 +1061,8 @@ footer .social li:last-child {
 @media (max-width: 576px) {
   .special-wrap {
     top: 36px;
-    left: -9px;
+    left: -5px;
+    width: 100%;
   }
 }
 
