@@ -459,6 +459,11 @@ a {
     left: 3px;
   }
 }
+@media (max-width: 768px) {
+  .gallery .empty-block-left::before {
+    left: 2px;
+  }
+}
 
 .gallery::before {
   content: '';
