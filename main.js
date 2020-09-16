@@ -30,6 +30,7 @@ $(document).ready(function () {
             $('.landing-wrap').addClass('reanimateG')
             $('.landing-wrap').removeClass('animateG'); 
         }
+        $('.landing-wrap').parent().toggleClass('index');
     });
     $('.sketchButton').click(function (e) { 
         e.preventDefault();
@@ -48,9 +49,7 @@ $(document).ready(function () {
             $('.sketch-wrap').addClass('reanimateG')
             $('.sketch-wrap').removeClass('animateG'); 
         }
-        var currentParent = $('.sketch-wrap').parent();
-        $(currentParent).toggleClass('index');
-
+        $('.sketch-wrap').parent().toggleClass('index');
     });
     $('.comicsButton').click(function (e) { 
         e.preventDefault();
@@ -69,6 +68,7 @@ $(document).ready(function () {
             $('.comics-wrap').addClass('reanimateG')
             $('.comics-wrap').removeClass('animateG'); 
         }
+        $('.comics-wrap').parent().toggleClass('index');
     });
     $('.artButton').click(function (e) { 
         e.preventDefault();
@@ -87,6 +87,7 @@ $(document).ready(function () {
             $('.art-wrap').addClass('reanimateG')
             $('.art-wrap').removeClass('animateG'); 
         }
+        $('.art-wrap').parent().toggleClass('index');
     });
     $('.portretButton').click(function (e) { 
         e.preventDefault();
@@ -105,6 +106,7 @@ $(document).ready(function () {
             $('.portret-wrap').addClass('reanimateG')
             $('.portret-wrap').removeClass('animateG'); 
         }
+        $('.portret-wrap').parent().toggleClass('index');
     });
     $('.backToGallery').click(function (e) { 
         e.preventDefault();
