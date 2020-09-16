@@ -1,11 +1,3 @@
-// function showSocial(event) { 
-//     event.preventDefault(); 
-//     const modal = document.querySelector('.modal');
-//     const arrow = document.querySelector('.arrow-down');
-//     modal.classList.toggle("d-none");
-//     arrow.classList.toggle("rotate");
-//  }
-
 $(document).ready(function () {
     $('.showSocial').click(function (e) { 
         e.preventDefault();
@@ -21,55 +13,102 @@ $(document).ready(function () {
         e.preventDefault();
         $('.modal-bio').fadeToggle();
     });
+    $('.landingButton').click(function (e) { 
+        e.preventDefault();
+        if ($('.gallery-list').hasClass('animate')) {
+            $('.gallery-list').removeClass('animate')
+            $('.gallery-list').addClass('reanimate')
+        } else {
+            $('.gallery-list').removeClass('reanimate')
+            $('.gallery-list').addClass('animate')
+        };
+        if ($('.landing-wrap').hasClass('reanimateG')) {
+            $('.landing-wrap').removeClass('reanimateG')
+            $('.landing-wrap').addClass('animateG')
+            $('.backToGallery').fadeIn();
+        } else {
+            $('.landing-wrap').addClass('reanimateG')
+            $('.landing-wrap').removeClass('animateG'); 
+        }
+    });
+    $('.sketchButton').click(function (e) { 
+        e.preventDefault();
+        if ($('.gallery-list').hasClass('animate')) {
+            $('.gallery-list').removeClass('animate')
+            $('.gallery-list').addClass('reanimate')
+        } else {
+            $('.gallery-list').removeClass('reanimate')
+            $('.gallery-list').addClass('animate')
+        };
+        if ($('.sketch-wrap').hasClass('reanimateG')) {
+            $('.sketch-wrap').removeClass('reanimateG')
+            $('.sketch-wrap').addClass('animateG')
+            $('.backToGallery').fadeIn();
+        } else {
+            $('.sketch-wrap').addClass('reanimateG')
+            $('.sketch-wrap').removeClass('animateG'); 
+        }
+    });
+    $('.comicsButton').click(function (e) { 
+        e.preventDefault();
+        if ($('.gallery-list').hasClass('animate')) {
+            $('.gallery-list').removeClass('animate')
+            $('.gallery-list').addClass('reanimate')
+        } else {
+            $('.gallery-list').removeClass('reanimate')
+            $('.gallery-list').addClass('animate')
+        };
+        if ($('.comics-wrap').hasClass('reanimateG')) {
+            $('.comics-wrap').removeClass('reanimateG')
+            $('.comics-wrap').addClass('animateG')
+            $('.backToGallery').fadeIn();
+        } else {
+            $('.comics-wrap').addClass('reanimateG')
+            $('.comics-wrap').removeClass('animateG'); 
+        }
+    });
+    $('.artButton').click(function (e) { 
+        e.preventDefault();
+        if ($('.gallery-list').hasClass('animate')) {
+            $('.gallery-list').removeClass('animate')
+            $('.gallery-list').addClass('reanimate')
+        } else {
+            $('.gallery-list').removeClass('reanimate')
+            $('.gallery-list').addClass('animate')
+        };
+        if ($('.art-wrap').hasClass('reanimateG')) {
+            $('.art-wrap').removeClass('reanimateG')
+            $('.art-wrap').addClass('animateG')
+            $('.backToGallery').fadeIn();
+        } else {
+            $('.art-wrap').addClass('reanimateG')
+            $('.art-wrap').removeClass('animateG'); 
+        }
+    });
+    $('.portretButton').click(function (e) { 
+        e.preventDefault();
+        if ($('.gallery-list').hasClass('animate')) {
+            $('.gallery-list').removeClass('animate')
+            $('.gallery-list').addClass('reanimate')
+        } else {
+            $('.gallery-list').removeClass('reanimate')
+            $('.gallery-list').addClass('animate')
+        };
+        if ($('.portret-wrap').hasClass('reanimateG')) {
+            $('.portret-wrap').removeClass('reanimateG')
+            $('.portret-wrap').addClass('animateG')
+            $('.backToGallery').fadeIn();
+        } else {
+            $('.portret-wrap').addClass('reanimateG')
+            $('.portret-wrap').removeClass('animateG'); 
+        }
+    });
+    $('.backToGallery').click(function (e) { 
+        e.preventDefault();
+        $('.backToGallery').fadeOut();
+        $('.gallery-list').removeClass('animate')
+        $('.gallery-list').addClass('reanimate')
+        $('.typeOfGallery-wrap').addClass('reanimateG')
+        $('.typeOfGallery-wrap').removeClass('animateG'); 
+    });
 });
-
-// Ниже: скрипты, которые по нажатию на кнопку в галерее скрывают галерею и открывают тематический раздел
-
-$('.landingButton').click(function (e) { 
-    e.preventDefault();
-    $('.gallery-list, .gallery .section_head>span').fadeOut();
-    $('.landing-wrap').fadeIn();
-    $('.gallery .section_head>h2').text('ЛЕНДИНГ');
-    $('.backToGallery').fadeIn();
-});
-$('.comicsButton').click(function (e) { 
-    e.preventDefault();
-    $('.gallery-list, .gallery .section_head>span').fadeOut();
-    $('.comics-wrap').fadeIn();
-    $('.gallery .section_head>h2').text('КОМИКСЫ');
-    $('.backToGallery').fadeIn();
-});
-$('.artButton').click(function (e) { 
-    e.preventDefault();
-    $('.gallery-list, .gallery .section_head>span').fadeOut();
-    $('.art-wrap').fadeIn();
-    $('.gallery .section_head>h2').text('АРТ');
-    $('.backToGallery').fadeIn();
-});
-$('.sketchButton').click(function (e) { 
-    e.preventDefault();
-    $('.gallery-list, .gallery .section_head>span').fadeOut();
-    $('.sketch-wrap').fadeIn();
-    $('.gallery .section_head>h2').text('СКЕТЧ');
-    $('.backToGallery').fadeIn();
-});
-$('.portretButton').click(function (e) { 
-    e.preventDefault();
-    $('.gallery-list, .gallery .section_head>span').fadeOut();
-    $('.portret-wrap').fadeIn();
-    $('.gallery .section_head>h2').text('ПОРТРЕТ');
-    $('.backToGallery').fadeIn();
-});
-
-// Здесь заканчиваются скрипты с разкрытием тематических разделов.
-// Ниже: скрипт, который по нажатию на кнопку "ГАЛЕРЕЯ" в тематическом разделе галереи скрывает его и снова показывает главную галереи
-
-$('.backToGallery').click(function (e) { 
-    $('.typeOfGallery-wrap').fadeOut();
-    $('.gallery-list, .gallery .section_head>span').fadeIn();
-    $('.gallery .section_head>h2').text('ГАЛЕРЕЯ');
-    $(this).fadeOut(); 
-});
-
-
-

@@ -1030,4 +1030,48 @@ footer .social li:last-child {
   -webkit-transform: rotateX(180deg);
           transform: rotateX(180deg);
 }
+
+.special-wrap {
+  position: absolute;
+  top: 66px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.rotate {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+.animate {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+  opacity: 0;
+}
+
+.reanimate {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+}
+
+.animateG {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+}
+
+.reanimateG {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateY(650px);
+          transform: translateY(650px);
+  opacity: 0;
+}
 /*# sourceMappingURL=style.css.map */
