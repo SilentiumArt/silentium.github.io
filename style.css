@@ -364,6 +364,10 @@ a {
   }
 }
 
+.gallery-list {
+  z-index: 1;
+}
+
 .gallery .empty-block-right {
   position: absolute;
   right: -5px;
