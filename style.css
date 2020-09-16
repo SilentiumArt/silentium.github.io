@@ -589,6 +589,11 @@ a {
 .gallery .backToGallery {
   margin: 63px auto 0px;
 }
+@media (max-width: 576px) {
+  .gallery .backToGallery {
+    margin: 83px auto 0px;
+  }
+}
 
 .typeOfGallery-wrap {
   width: 92%;
