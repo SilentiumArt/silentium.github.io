@@ -112,6 +112,7 @@ $(document).ready(function () {
         e.preventDefault();
         $('.backToGallery').fadeOut();
         $('.gallery-list').removeClass('animate')
+        $('.gallery-list').removeClass('animate-single')
         $('.gallery-list').addClass('reanimate')
         $('.typeOfGallery-wrap').addClass('reanimateG')
         $('.typeOfGallery-wrap').removeClass('animateG'); 
