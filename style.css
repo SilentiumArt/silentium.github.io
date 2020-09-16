@@ -775,7 +775,7 @@ a {
   font-size: 2.3rem;
   letter-spacing: 0.2px;
   color: #000;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .skills p:last-child {
@@ -799,7 +799,7 @@ a {
   margin-bottom: 150px;
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 768px) {
   .skills form {
     margin-bottom: 0;
   }
