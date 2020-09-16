@@ -590,6 +590,11 @@ a {
   margin: 0 auto;
 }
 
+.typeOfGallery-wrap {
+  width: 92%;
+  margin: 0 auto;
+}
+
 .typeOfGallery-wrap .typeOfGallery-items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1038,7 +1043,8 @@ footer .social li:last-child {
 .special-wrap {
   position: absolute;
   top: 66px;
-  width: 100%;
+  left: -53px;
+  width: 110%;
   overflow: hidden;
   z-index: 0;
 }
