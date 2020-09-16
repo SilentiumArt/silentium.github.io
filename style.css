@@ -1054,6 +1054,7 @@ footer .social li:last-child {
   -webkit-transform: translateY(-100px);
           transform: translateY(-100px);
   opacity: 0;
+  z-index: 0;
 }
 
 .reanimate {
@@ -1062,6 +1063,7 @@ footer .social li:last-child {
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
   opacity: 1;
+  z-index: 1;
 }
 
 .animateG {
