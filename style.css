@@ -1036,6 +1036,7 @@ footer .social li:last-child {
   top: 66px;
   width: 100%;
   overflow: hidden;
+  z-index: 0;
 }
 
 .rotate {
