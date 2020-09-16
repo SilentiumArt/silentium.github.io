@@ -900,7 +900,7 @@ a {
   margin-top: 275px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .skills .image-wrap {
     margin-top: 169px;
   }
@@ -913,6 +913,11 @@ a {
 @media (max-width: 576px) {
   .skills .image-wrap img {
     width: 95%;
+  }
+}
+@media (max-width: 768px) {
+  .skills .image-wrap img {
+    width: 109%;
   }
 }
 
