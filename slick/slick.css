@@ -125,3 +125,7 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.typeOfGallery-wrap .slick-slider .slick-arrow {
+    top: 48%;
+}
