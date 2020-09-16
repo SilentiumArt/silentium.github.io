@@ -175,6 +175,12 @@ a {
     width: 768px;
   }
 }
+@media (max-width: 992px) {
+  .main-screen {
+    height: 675px;
+    width: 1028px;
+  }
+}
 
 .main-screen .modal-bio {
   position: absolute;
