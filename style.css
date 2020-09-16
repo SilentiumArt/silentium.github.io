@@ -1078,6 +1078,7 @@ footer .social li:last-child {
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
   opacity: 1;
+  z-index: 2;
 }
 
 .reanimateG {
@@ -1086,5 +1087,6 @@ footer .social li:last-child {
   -webkit-transform: translateY(650px);
           transform: translateY(650px);
   opacity: 0;
+  z-index: 0;
 }
 /*# sourceMappingURL=style.css.map */
