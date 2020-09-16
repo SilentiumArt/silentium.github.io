@@ -31,6 +31,7 @@ $(document).ready(function () {
             $('.landing-wrap').removeClass('animateG'); 
         }
         $('.landing-wrap').parent().toggleClass('index');
+        $('.rename').text('ЛЕНДИНГИ')
     });
     $('.sketchButton').click(function (e) { 
         e.preventDefault();
@@ -50,6 +51,8 @@ $(document).ready(function () {
             $('.sketch-wrap').removeClass('animateG'); 
         }
         $('.sketch-wrap').parent().toggleClass('index');
+        $('.rename').text('СКЕТЧИ')
+
     });
     $('.comicsButton').click(function (e) { 
         e.preventDefault();
@@ -69,6 +72,7 @@ $(document).ready(function () {
             $('.comics-wrap').removeClass('animateG'); 
         }
         $('.comics-wrap').parent().toggleClass('index');
+        $('.rename').text('КОМИКСЫ')
     });
     $('.artButton').click(function (e) { 
         e.preventDefault();
@@ -88,6 +92,7 @@ $(document).ready(function () {
             $('.art-wrap').removeClass('animateG'); 
         }
         $('.art-wrap').parent().toggleClass('index');
+        $('.rename').text('АРТ')
     });
     $('.portretButton').click(function (e) { 
         e.preventDefault();
@@ -107,6 +112,7 @@ $(document).ready(function () {
             $('.portret-wrap').removeClass('animateG'); 
         }
         $('.portret-wrap').parent().toggleClass('index');
+        $('.rename').text('ПОРТРЕТЫ')
     });
     $('.backToGallery').click(function (e) { 
         e.preventDefault();
@@ -116,6 +122,7 @@ $(document).ready(function () {
         $('.gallery-list').addClass('reanimate')
         $('.typeOfGallery-wrap').addClass('reanimateG')
         $('.typeOfGallery-wrap').removeClass('animateG'); 
+        $('.rename').text('ГАЛЕРЕЯ')
         $('.typeOfGallery-wrap').parent().removeClass('index')
     });
 });
