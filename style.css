@@ -1105,5 +1105,11 @@ footer .social li:last-child {
 
 .animate-single {
   height: 250px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+  opacity: 0;
+  z-index: 0;
 }
 /*# sourceMappingURL=style.css.map */
