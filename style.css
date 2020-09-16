@@ -670,6 +670,15 @@ a {
   }
 }
 
+.typeOfGallery-wrap {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateY(650px);
+          transform: translateY(650px);
+  opacity: 0;
+  z-index: 0;
+}
+
 .skills {
   position: relative;
   background: #ffffff url("./img/skills-bg.png") center no-repeat;
@@ -1081,12 +1090,16 @@ footer .social li:last-child {
   z-index: 2;
 }
 
-.reanimateG {
+/* .reanimateG {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transform: translateY(650px);
           transform: translateY(650px);
   opacity: 0;
   z-index: 0;
+} */
+
+.index {
+  z-index: 33;
 }
 /*# sourceMappingURL=style.css.map */
