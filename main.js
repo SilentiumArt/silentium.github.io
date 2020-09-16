@@ -113,5 +113,6 @@ $(document).ready(function () {
         $('.gallery-list').addClass('reanimate')
         $('.typeOfGallery-wrap').addClass('reanimateG')
         $('.typeOfGallery-wrap').removeClass('animateG'); 
+        $('.typeOfGallery-wrap').parent().removeClass('index')
     });
 });
