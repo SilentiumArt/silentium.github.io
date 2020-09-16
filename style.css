@@ -400,6 +400,12 @@ a {
     right: 2px;
   }
 }
+@media (max-width: 768px) {
+  .gallery .empty-block-right {
+    right: -8px;
+    width: 12px;
+  }
+}
 
 .gallery .empty-block-right::after {
   content: '';
@@ -414,7 +420,7 @@ a {
   background: linear-gradient(180deg, black 0%, black 71%, rgba(255, 255, 255, 0) 100%);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .gallery .empty-block-right::after {
     right: -2px;
   }
