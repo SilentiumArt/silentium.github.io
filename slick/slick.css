@@ -21,13 +21,20 @@
 .slick-list
 {
     position: relative;
-    left: -9px;
+    left: 0px;
     display: block;
     overflow: hidden;
 
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 576px) {
+    .slick-list {
+        left: -9px; 
+    }
+}
+
 .slick-list:focus
 {
     outline: none;
