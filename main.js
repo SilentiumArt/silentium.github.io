@@ -15,12 +15,12 @@ $(document).ready(function () {
     });
     $('.landingButton').click(function (e) { 
         e.preventDefault();
-        if ($('.gallery-list').hasClass('animate')) {
-            $('.gallery-list').removeClass('animate')
+        if ($('.gallery-list').hasClass('animate-single')) {
+            $('.gallery-list').removeClass('animate-single')
             $('.gallery-list').addClass('reanimate')
         } else {
             $('.gallery-list').removeClass('reanimate')
-            $('.gallery-list').addClass('animate')
+            $('.gallery-list').addClass('animate-single')
         };
         if ($('.landing-wrap').hasClass('reanimateG')) {
             $('.landing-wrap').removeClass('reanimateG')

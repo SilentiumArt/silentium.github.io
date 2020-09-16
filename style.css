@@ -1102,4 +1102,8 @@ footer .social li:last-child {
 .index {
   z-index: 33;
 }
+
+.animate-single {
+  height: 250px;
+}
 /*# sourceMappingURL=style.css.map */
