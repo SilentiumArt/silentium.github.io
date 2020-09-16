@@ -107,6 +107,12 @@ a {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .nav {
+    width: 43%;
+  }
+}
+
 .nav li:nth-child(2) {
   margin-right: 5px;
   position: relative;
