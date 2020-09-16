@@ -42,8 +42,8 @@
     background: transparent;
 }
 
-.typeOfGallery-wrap .slick-slider .slick-prev,
-.typeOfGallery-wrap .slick-slider .slick-next {
+.typeOfGallery-wrap .slick-prev,
+.typeOfGallery-wrap .slick-next {
     top: 48%;
 }
 
