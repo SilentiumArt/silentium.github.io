@@ -598,7 +598,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-width: 330px;
   min-height: 309px;
 }
 
@@ -606,6 +605,7 @@ a {
   .typeOfGallery-wrap .typeOfGallery-items {
     position: relative;
     left: -6px;
+    min-width: 330px;
   }
 }
 
