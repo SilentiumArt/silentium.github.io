@@ -48,6 +48,9 @@ $(document).ready(function () {
             $('.sketch-wrap').addClass('reanimateG')
             $('.sketch-wrap').removeClass('animateG'); 
         }
+        var currentParent = $('.sketch-wrap').parent();
+        $(currentParent).toggleClass('index');
+
     });
     $('.comicsButton').click(function (e) { 
         e.preventDefault();
