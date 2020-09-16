@@ -48,6 +48,11 @@
             transform: translate3d(0, 0, 0);
 }
 
+.slick-list {
+    position: relative;
+    left: -9px;
+}
+
 .slick-track
 {
     position: relative;
