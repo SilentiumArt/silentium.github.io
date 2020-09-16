@@ -336,6 +336,12 @@ a {
 
 .main-screen .main-text img {
   width: 100%;
+  margin-top: 100px;
+}
+@media (max-width: 768px) {
+  .main-screen .main-text img {
+    margin-top: 110px;
+  }
 }
 
 .main-screen .main-text h1 {
