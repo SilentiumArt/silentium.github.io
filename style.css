@@ -181,6 +181,12 @@ a {
     width: 992px;
   }
 }
+@media (max-width: 1440px) {
+  .main-screen {
+    height: 782px;
+    width: 1440px;
+  }
+}
 
 .main-screen .modal-bio {
   position: absolute;
