@@ -181,6 +181,12 @@ a {
     width: 992px;
   }
 }
+@media (max-width: 1024px) {
+  .main-screen {
+    height: 722px;
+    width: 1024px;
+  }
+}
 @media (max-width: 1440px) {
   .main-screen {
     height: 782px;
