@@ -854,7 +854,7 @@ a {
 }
 
 .skills #load {
-  display: none;
+  display: block;
 }
 
 .skills label {
