@@ -797,8 +797,8 @@ a {
 }
 @media (max-width: 768px) {
   .skills::before {
-    left: 27px;
-    width: 30%;
+    left: 9px;
+    width: 38%;
   }
 }
 @media (max-width: 576px) {
