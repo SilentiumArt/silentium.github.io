@@ -1023,12 +1023,13 @@ footer .social li:last-child {
   width: 48px;
   height: 48px;
   background-color: #DADADA;
+  background-size: cover;
   border-radius: 50%;
 }
 @media (max-width: 576px) {
   .footer-social {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
   }
 }
 .footer-inst {
@@ -1042,6 +1043,18 @@ footer .social li:last-child {
 }
 .footer-email {
   background: url('./img/mail.svg') center no-repeat;
+}
+.footer-inst:hover {
+  background: url('./img/ig-black.svg') center no-repeat;
+}
+.footer-tg:hover {
+  background: url('./img/tg-black.svg') center no-repeat;
+}
+.footer-vk:hover {
+  background: url('./img/vk-black.svg') center no-repeat;
+}
+.footer-email:hover {
+  background: url('./img/mail-black.svg') center no-repeat;
 }
 
 .modal {
