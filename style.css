@@ -156,7 +156,6 @@ a {
 
 .main-screen {
   width: 100vw;
-  height: 735px;
   margin: 0 auto;
   background: #fff url("./img/main-bg.png") center 172% no-repeat;
   background-size: cover;
@@ -184,6 +183,11 @@ a {
   }
 }
 @media (max-width: 1440px) {
+  .main-screen {
+    height: 782px;
+  }
+}
+@media (min-width: 1440px) {
   .main-screen {
     height: 782px;
   }
