@@ -464,11 +464,13 @@ a {
 @media (max-width: 768px) {
   .gallery .empty-block-left {
     left: 0px;
+    background-color: #ffffff;
   }
 }
 @media (max-width: 576px) {
   .gallery .empty-block-left {
     left: -2px;
+    background-color: #ffffff;
   }
 }
 
