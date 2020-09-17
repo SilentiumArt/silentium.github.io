@@ -156,6 +156,7 @@ a {
 
 .main-screen {
   width: 100vw;
+  max-width: 1286px;
   margin: 0 auto;
   background: #fff url("./img/main-bg.png") center 172% no-repeat;
   background-size: cover;
