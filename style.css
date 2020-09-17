@@ -1025,17 +1025,23 @@ footer .social li:last-child {
   background-color: #DADADA;
   border-radius: 50%;
 }
+@media (max-width: 576px) {
+  .footer-social {
+    width: 40px;
+    height: 40px;
+  }
+}
 .footer-inst {
-  background: url('./img/ig.svg');
+  background: url('./img/ig.svg') center no-repeat;
 }
 .footer-tg {
-  background: url('./img/tg.svg');
+  background: url('./img/tg.svg') center no-repeat;
 }
 .footer-vk {
-  background: url('./img/vk.svg');
+  background: url('./img/vk.svg') center no-repeat;
 }
-.footer-mail {
-  background: url('./img/mail.svg');
+.footer-email {
+  background: url('./img/mail.svg') center no-repeat;
 }
 
 .modal {
