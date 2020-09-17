@@ -1022,7 +1022,14 @@
             swipeToSlide: true,
             mobileFirst: true,
             responsive: [
-                {
+               {
+                    breakpoint: 3000,
+                    settings: {
+                        arrows: true,
+                        slidesToShow: 4,
+                    },
+                },    
+               {
                     breakpoint: 1440,
                     settings: {
                         arrows: true,
@@ -1076,7 +1083,7 @@
                     breakpoint: 576,
                     settings: {
                         slidesToShow: 1,
-                        arrows: false,
+                        arrows: true,
                     },
                 },
                 
