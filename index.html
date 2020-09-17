@@ -1020,25 +1020,12 @@
             arrows: true,
             swipeToSlide: true,
             responsive: [
-               {
-                    breakpoint: 3000,
-                    settings: {
-                        arrows: true,
-                        slidesToShow: 4,
-                    },
-                },    
-               {
-                    breakpoint: 1440,
-                    settings: {
-                        arrows: true,
-                        slidesToShow: 3,
-                    },
-                },
                 {
-                    breakpoint: 1024,
+                    breakpoint: 576,
                     settings: {
+                        slidesToShow: 1,
                         arrows: true,
-                        slidesToShow: 3,
+                        dots: true
                     },
                 },
                 {
@@ -1049,11 +1036,24 @@
                     },
                 },
                 {
-                    breakpoint: 576,
+                    breakpoint: 1024,
                     settings: {
-                        slidesToShow: 1,
                         arrows: true,
-                        dots: true
+                        slidesToShow: 3,
+                    },
+                },
+                {
+                    breakpoint: 1440,
+                    settings: {
+                        arrows: true,
+                        slidesToShow: 3,
+                    },
+                },
+                {
+                    breakpoint: 3000,
+                    settings: {
+                        arrows: true,
+                        slidesToShow: 4,
                     },
                 },
             ]
