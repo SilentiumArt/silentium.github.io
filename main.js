@@ -15,8 +15,9 @@ $(document).ready(function () {
         e.preventDefault();
         $('.modal').toggleClass('d-none');
         $('.arrow-down').toggleClass('rotate')
+        $('.showBIO').fadeOut();
     });
-    $('.main-screen, .arrow-up').click(function (e) {
+    $('.main-screen, .arrow-up, .showBIO').click(function (e) {
         e.preventDefault();
         $('.modal').addClass('d-none');
         $('.arrow-down').removeClass('rotate')
