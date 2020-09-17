@@ -1,19 +1,31 @@
 $(document).ready(function () {
-    $('.showSocial').click(function (e) { 
+    $('.showSocial').click(function (e) {
         e.preventDefault();
         $('.modal').toggleClass('d-none');
         $('.arrow-down').toggleClass('rotate')
     });
-    $('.main-screen, .arrow-up').click(function (e) { 
+    $('.main-screen, .arrow-up').click(function (e) {
         e.preventDefault();
         $('.modal').addClass('d-none');
         $('.arrow-down').removeClass('rotate')
     });
-    $('.showBIO').click(function (e) { 
+    $('.showBIO').click(function (e) {
         e.preventDefault();
         $('.modal-bio').fadeToggle();
     });
-    $('.landingButton').click(function (e) { 
+    JavaScript
+    $('.toGallery').on('click', function () {
+        var el = $(this);
+        var dest = el.attr('href'); // получаем направление
+        if (dest !== undefined && dest !== '') { // проверяем существование
+            $('html').animate({
+                scrollTop: $(dest).offset().top // прокручиваем страницу к требуемому элементу
+            }, 500 // скорость прокрутки
+            );
+        }
+        return false;
+    });
+    $('.landingButton').click(function (e) {
         e.preventDefault();
         if ($('.gallery-list').hasClass('animate-single')) {
             $('.gallery-list').removeClass('animate-single')
@@ -28,12 +40,12 @@ $(document).ready(function () {
             $('.backToGallery').fadeIn();
         } else {
             $('.landing-wrap').addClass('reanimateG')
-            $('.landing-wrap').removeClass('animateG'); 
+            $('.landing-wrap').removeClass('animateG');
         }
         $('.landing-wrap').parent().toggleClass('index');
         $('.rename').text('ЛЕНДИНГИ')
     });
-    $('.sketchButton').click(function (e) { 
+    $('.sketchButton').click(function (e) {
         e.preventDefault();
         if ($('.gallery-list').hasClass('animate')) {
             $('.gallery-list').removeClass('animate')
@@ -48,13 +60,13 @@ $(document).ready(function () {
             $('.backToGallery').fadeIn();
         } else {
             $('.sketch-wrap').addClass('reanimateG')
-            $('.sketch-wrap').removeClass('animateG'); 
+            $('.sketch-wrap').removeClass('animateG');
         }
         $('.sketch-wrap').parent().toggleClass('index');
         $('.rename').text('СКЕТЧИ')
 
     });
-    $('.comicsButton').click(function (e) { 
+    $('.comicsButton').click(function (e) {
         e.preventDefault();
         if ($('.gallery-list').hasClass('animate')) {
             $('.gallery-list').removeClass('animate')
@@ -69,12 +81,12 @@ $(document).ready(function () {
             $('.backToGallery').fadeIn();
         } else {
             $('.comics-wrap').addClass('reanimateG')
-            $('.comics-wrap').removeClass('animateG'); 
+            $('.comics-wrap').removeClass('animateG');
         }
         $('.comics-wrap').parent().toggleClass('index');
         $('.rename').text('КОМИКСЫ')
     });
-    $('.artButton').click(function (e) { 
+    $('.artButton').click(function (e) {
         e.preventDefault();
         if ($('.gallery-list').hasClass('animate')) {
             $('.gallery-list').removeClass('animate')
@@ -89,12 +101,12 @@ $(document).ready(function () {
             $('.backToGallery').fadeIn();
         } else {
             $('.art-wrap').addClass('reanimateG')
-            $('.art-wrap').removeClass('animateG'); 
+            $('.art-wrap').removeClass('animateG');
         }
         $('.art-wrap').parent().toggleClass('index');
         $('.rename').text('АРТ')
     });
-    $('.portretButton').click(function (e) { 
+    $('.portretButton').click(function (e) {
         e.preventDefault();
         if ($('.gallery-list').hasClass('animate')) {
             $('.gallery-list').removeClass('animate')
@@ -109,19 +121,19 @@ $(document).ready(function () {
             $('.backToGallery').fadeIn();
         } else {
             $('.portret-wrap').addClass('reanimateG')
-            $('.portret-wrap').removeClass('animateG'); 
+            $('.portret-wrap').removeClass('animateG');
         }
         $('.portret-wrap').parent().toggleClass('index');
         $('.rename').text('ПОРТРЕТЫ')
     });
-    $('.backToGallery').click(function (e) { 
+    $('.backToGallery').click(function (e) {
         e.preventDefault();
         $('.backToGallery').fadeOut();
         $('.gallery-list').removeClass('animate')
         $('.gallery-list').removeClass('animate-single')
         $('.gallery-list').addClass('reanimate')
         $('.typeOfGallery-wrap').addClass('reanimateG')
-        $('.typeOfGallery-wrap').removeClass('animateG'); 
+        $('.typeOfGallery-wrap').removeClass('animateG');
         $('.rename').text('ГАЛЕРЕЯ')
         $('.typeOfGallery-wrap').parent().removeClass('index')
     });
