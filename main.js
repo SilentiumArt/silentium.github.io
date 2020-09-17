@@ -3,7 +3,7 @@ $('.toGallery').on('click', function () {
     var dest = el.attr('href'); // получаем направление
     if (dest !== undefined && dest !== '') { // проверяем существование
         $('html').animate({
-            scrollTop: $(dest).offset(100).top // прокручиваем страницу к требуемому элементу
+            scrollTop: $(dest).offset().top(100) // прокручиваем страницу к требуемому элементу
         }, 500 // скорость прокрутки
         );
     }
