@@ -10,13 +10,6 @@ $('.toGallery').on('click', function () {
     return false;
 });
 
-$('.footer-inst').mousedown(function () { 
-    $(this).css('background', 'url("./img/ig-light.svg")')
-});
-$('.footer-inst').mouseup(function () { 
-    $(this).css('background', 'url("./img/ig.svg")')
-});
-
 $(document).ready(function () {
     $('.showSocial').click(function (e) {
         e.preventDefault();
