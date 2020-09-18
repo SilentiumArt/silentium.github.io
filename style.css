@@ -1037,25 +1037,25 @@ footer .social li:last-child {
   background-position: 0px 0px;
 }
 .footer-tg {
-  background-position:  0px 0px;
+  background-position:  -48px 0px;
 }
 .footer-vk {
-  background-position:  0px 0px;
+  background-position:  -96px 0px;
 }
 .footer-email {
-  background-position:  0px 0px;
+  background-position:  -144px 0px;
 }
 .footer-inst:hover {
-  background-position:  0px 0px;
+  background-position:  0px -48px;
 }
 .footer-tg:hover {
-  background-position:  0px 0px;
+  background-position:  -48px -48px;
 }
 .footer-vk:hover {
-  background-position:  0px 0px;
+  background-position:  -96px -48px;
 }
 .footer-email:hover {
-  background-position:  0px 0px;
+  background-position:  -144px -48px;
 }
 
 .modal {
