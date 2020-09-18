@@ -117,12 +117,23 @@
 {
     content: '';
     display: block;
-    width: 14px;
-    height: 21px;
+    width: 17px;
+    height: 25px;
     background-color: #fff;
     background-image: url('./../img/arrows-sprites.svg');
     background-size: auto;
-    background-position: 0px 0px;
+    background-position: 0px -28px;
+}
+.slick-prev:before:hover
+{
+    content: '';
+    display: block;
+    width: 14px;
+    height: 23px;
+    background-color: #fff;
+    background-image: url('./../img/arrows-sprites.svg');
+    background-size: auto;
+    background-position: -17px -28px;
 }
 [dir='rtl'] .slick-prev:before
 {
