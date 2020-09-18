@@ -1022,7 +1022,7 @@ footer .social li:last-child {
 .footer-social {
   width: 48px;
   height: 48px;
-  background-color: #DADADA;
+  background: #DADADA url('./img/social-sprites.svg') no-repeat;
   background-size: cover;
   border-radius: 50%;
 }
@@ -1033,28 +1033,28 @@ footer .social li:last-child {
   }
 }
 .footer-inst {
-  background: url('./img/ig.svg') center no-repeat;
+  background: 0px 0px;
 }
 .footer-tg {
-  background: url('./img/tg.svg') center no-repeat;
+  background:  0px 0px;
 }
 .footer-vk {
-  background: url('./img/vk.svg') center no-repeat;
+  background:  0px 0px;
 }
 .footer-email {
-  background: url('./img/mail.svg') center no-repeat;
+  background:  0px 0px;
 }
 .footer-inst:hover {
-  background: url('./img/ig-black.svg') center no-repeat;
+  background:  0px 0px;
 }
 .footer-tg:hover {
-  background: url('./img/tg-black.svg') center no-repeat;
+  background:  0px 0px;
 }
 .footer-vk:hover {
-  background: url('./img/vk-black.svg') center no-repeat;
+  background:  0px 0px;
 }
 .footer-email:hover {
-  background: url('./img/mail-black.svg') center no-repeat;
+  background:  0px 0px;
 }
 
 .modal {
