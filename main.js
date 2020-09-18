@@ -11,7 +11,7 @@ $('.toGallery').on('click', function () {
 });
 
 $('.footer-inst').mousedown(function () { 
-    $(this).css('background : url("./img/ig-light.svg")')
+    $(this).css('background', 'url("./img/ig-light.svg")')
 });
 
 $(document).ready(function () {
