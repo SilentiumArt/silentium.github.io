@@ -117,8 +117,8 @@
 {
     content: '';
     display: block;
-    width: 17px;
-    height: 25px;
+    width: 14px;
+    height: 23px;
     background-color: #fff;
     background-image: url('./../img/arrows-sprites.svg');
     background-size: auto;
@@ -126,14 +126,15 @@
 }
 .slick-prev:hover:before
 {
-    content: '';
-    display: block;
-    width: 14px;
-    height: 23px;
-    background-color: #fff;
-    background-image: url('./../img/arrows-sprites.svg');
-    background-size: auto;
+    width: 17px;
+    height: 25px;
     background-position: -17px -28px;
+}
+.slick-prev:active:before
+{
+    width: 17px;
+    height: 25px;
+    background-position: 17px -28px;
 }
 [dir='rtl'] .slick-prev:before
 {
