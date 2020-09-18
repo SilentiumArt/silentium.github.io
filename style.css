@@ -1057,6 +1057,19 @@ footer .social li:last-child {
 .footer-email:hover {
   background-position:  -144px -48px;
 }
+.footer-inst:active {
+  background-position:  0px -96px;
+}
+.footer-tg:active {
+  background-position:  -48px -96px;
+}
+.footer-vk:active {
+  background-position:  -96px -96px;
+}
+.footer-email:active {
+  background-position:  -144px -96px;
+}
+
 
 .modal {
   position: absolute;
