@@ -1022,8 +1022,9 @@ footer .social li:last-child {
 .footer-social {
   width: 48px;
   height: 48px;
-  background: #DADADA url('./img/social-sprites.svg') no-repeat;
+  background-image: url('./img/social-sprites.svg');
   background-size: auto;
+  background-repeat: no-repeat;
   border-radius: 50%;
 }
 @media (max-width: 576px) {
@@ -1033,28 +1034,28 @@ footer .social li:last-child {
   }
 }
 .footer-inst {
-  background: 0px 0px;
+  background-position: 0px 0px;
 }
 .footer-tg {
-  background:  0px 0px;
+  background-position:  0px 0px;
 }
 .footer-vk {
-  background:  0px 0px;
+  background-position:  0px 0px;
 }
 .footer-email {
-  background:  0px 0px;
+  background-position:  0px 0px;
 }
 .footer-inst:hover {
-  background:  0px 0px;
+  background-position:  0px 0px;
 }
 .footer-tg:hover {
-  background:  0px 0px;
+  background-position:  0px 0px;
 }
 .footer-vk:hover {
-  background:  0px 0px;
+  background-position:  0px 0px;
 }
 .footer-email:hover {
-  background:  0px 0px;
+  background-position:  0px 0px;
 }
 
 .modal {
