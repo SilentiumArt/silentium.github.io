@@ -124,7 +124,7 @@
     background-size: auto;
     background-position: 0px -28px;
 }
-.slick-prev:before:hover
+.slick-prev:hover:before
 {
     content: '';
     display: block;
