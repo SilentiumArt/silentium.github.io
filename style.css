@@ -1023,7 +1023,7 @@ footer .social li:last-child {
   width: 48px;
   height: 48px;
   background: #DADADA url('./img/social-sprites.svg') no-repeat;
-  background-size: cover;
+  background-size: auto;
   border-radius: 50%;
 }
 @media (max-width: 576px) {
