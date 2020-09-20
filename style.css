@@ -621,6 +621,9 @@ a {
 .gallery a:hover, .gallery .backToGallery:hover {
   background-color: #212121;
 }
+.gallery a:active, .gallery .backToGallery:active {
+  background-color: #D7D7D7;
+}
 
 .gallery .gallery-description {
   position: relative;
