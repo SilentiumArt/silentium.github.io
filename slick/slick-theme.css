@@ -192,13 +192,13 @@
 {
     width: 17px;
     height: 26px;
-    background-position: 0px 17px;
+    background-position: -17px 0px;
 }
 .slick-next:active:before
 {
     width: 14px;
     height: 21px;
-    background-position: -17px 0px;
+    background-position: 17px 0px;
 }
 [dir='rtl'] .slick-next:before
 {
