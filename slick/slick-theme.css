@@ -182,11 +182,11 @@
     content: '';
     display: block;
     width: 14px;
-    height: 21px;
+    height: 25px;
     background-color: #fff;
     background-image: url('./../img/arrows-sprites.svg');
     background-size: auto;
-    background-position: 0px -28px;
+    background-position: 0px 0px;
 }
 .slick-next:hover:before
 {
