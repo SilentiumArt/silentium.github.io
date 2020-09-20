@@ -142,6 +142,9 @@ a {
 .nav a:hover {
   color: #212121;
 }
+.nav a:active {
+  color: #AFAFAF;
+}
 
 @media (max-width: 576px) {
   .nav a {
