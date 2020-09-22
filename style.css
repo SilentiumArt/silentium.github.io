@@ -1033,12 +1033,12 @@ footer .social li:last-child {
   background-repeat: no-repeat;
   border-radius: 50%;
 }
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .footer-social {
     width: 36px;
     height: 36px;
   }
-}
+} */
 .footer-inst {
   background-position: 0px 0px;
 }
