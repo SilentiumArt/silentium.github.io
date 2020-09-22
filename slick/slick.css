@@ -27,14 +27,18 @@
 .slick-list
 {
     position: relative;
-    left: 0px;
+    left: -7px;
     display: block;
     overflow: hidden;
 
     margin: 0;
     padding: 0;
 }
-
+@media (min-width: 992px) {
+    .slick-list {
+        left: -7px; 
+    }
+}
 @media (max-width: 576px) {
     .slick-list {
         left: -9px; 
